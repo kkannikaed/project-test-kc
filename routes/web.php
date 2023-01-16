@@ -48,5 +48,6 @@ Route::get('/testoperate', function () {
 });
 
 Route::get('/testdrive', function () {
-    echo "ทดสอบขอใบอนุญาตขับขี่";
+    // echo "ทดสอบขอใบอนุญาตขับขี่";
+    return view('testdrive');
 });
