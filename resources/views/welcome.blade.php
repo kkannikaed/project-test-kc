@@ -67,6 +67,9 @@
 
 
     <div class="container">
+
+
+
         <div class="table-wrapper">
             <div class="table-title">
                 <div class="row">
@@ -76,6 +79,23 @@
 
                 </div>
             </div>
+
+            <div class="row align-items-center">
+                <div class="col">
+                    <p>ชื่อจริง</p>
+                    <input type="inputscore" id="inputscore" class="form-control" aria-describedby="scoreHelpBlock">
+                </div>
+                <div class="col">
+                    <p>นามสกุล</p>
+                    <input type="inputscore" id="inputscore" class="form-control" aria-describedby="scoreHelpBlock">
+                </div>
+
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary">บันทึกข้อมูล</button>
+            <br>
+            <br>
+
             <table class="table table-bordered">
                 <thead>
                     <tr>
