@@ -39,6 +39,9 @@ $pass = "ผ่านการทดสอบภาคปฏิบัติ";
             </label>
         </div>
 
+        <br>
+        <a class="btn btn-primary" role="button" href="{{url('/')}}">ย้อนกลับ</a>
+
     </div>
 
     @if($pass == "ผ่านการทดสอบภาคปฏิบัติ")

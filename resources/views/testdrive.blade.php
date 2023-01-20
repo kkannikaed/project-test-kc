@@ -24,7 +24,11 @@
         <h1>สถานะการสอบขอใบอนุญาตขับขี่</h1>
 
 
+        <br>
+        <a class="btn btn-primary" role="button" href="{{url('/')}}">ย้อนกลับ</a>
     </div>
+
+
 
 
 

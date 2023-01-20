@@ -97,6 +97,10 @@
                 </label>
             </div>
         </div>
+
+        <br>
+        <a class="btn btn-primary" role="button" href="{{url('/')}}">บันทึกข้อมูล</a>
+        <a class="btn btn-primary" role="button" href="{{url('/')}}">ย้อนกลับ</a>
     </div>
 
 </body>

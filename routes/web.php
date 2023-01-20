@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\fromtestController;
+use App\Http\Controllers\WebController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,11 +14,11 @@ use App\Http\Controllers\fromtestController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-// Route::get('/driveinfo', 'WebController@driveinfo')->name('driveinfo');
+// Route::get('/', 'WebController@drive');
 
 //การสร้าง route หมายถึงการสร้าง path link
 
@@ -27,7 +27,7 @@ Route::get('/', function () {
 
 // });
 
-// Route::get('/', [fromtestController::class, 'index']);
+Route::get('/', [WebController::class, 'drive']);
 
 
 

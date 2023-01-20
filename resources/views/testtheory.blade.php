@@ -43,6 +43,9 @@
             <label for="inputscore" class="form-label">คะแนนที่ได้</label>
             <input type="inputscore" id="inputscore" class="form-control" aria-describedby="scoreHelpBlock">
         </div>
+
+        <br>
+        <a class="btn btn-primary" role="button" href="{{url('/')}}">ย้อนกลับ</a>
     </div>
 
 
